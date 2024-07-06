@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - Encriptador de Texto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <main>
+        <div class="title">
+            <i class="fa-solid fa-laptop-file"></i>
+            <h1>Encriptador de Texto</h1>
+        </div>
+        <div class="container">
+            <div class="texto">
+                <textarea id="txt-usuario" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="alert">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span class="txt">Sólo letras minúsculas y sin acentos</span>
+                </div>
+                <div class="buttons">
+                    <button class="btn_encriptar">ENCRIPTAR</button>
+                    <button class="btn_desencriptar">DESENCRIPTAR</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <div class="wrapper">
+                    <img src="assets/img/not-found.png" alt="" class="wrapper-img">
+                    <textarea id="txt-resultado" readonly></textarea>
+                    <p class="wrapper-text">No se encontraron resultados</p>
+                </div>
+                <button class="btn_copiar">COPIAR</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Hecho por 
+            <i class="fa-brands fa-pagelines"></i>
+            <span>María Isabel Mendoza Ugalde</span> 
+            <i class="fa-brands fa-pagelines"></i> 
+            para Alura LATAM & ONE
+        </p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
